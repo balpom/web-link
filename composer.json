@@ -1,0 +1,23 @@
+{
+    "name": "balpom/web-link",
+    "description": "Advanced interfaces for HTTP links and it's realisation.",
+    "type": "library",
+    "homepage": "https://www.balpom.ru",
+    "license": "MIT",
+    "keywords": ["link", "web", "weblink", "psr13", "psr-13", "http", "http2", "url", "uri"],
+    "autoload": {
+        "psr-4": {
+            "Balpom\\WebLink\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mikhail (Balpom)"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "psr/link": "^1.1|^2.0",
+        "symfony/web-link": ">=6.4"
+    }
+}
