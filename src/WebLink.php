@@ -7,8 +7,8 @@ use Symfony\Component\WebLink\Link;
 class WebLink extends Link implements EvolvableWebLinkInterface
 {
 
-    private string $tag;
-    private string $content;
+    private string $tag = '';
+    private string $content = '';
 
     public function getTag(): string
     {
