@@ -1,4 +1,4 @@
-# web-link
+# balpom/web-link
 ## WebLink component extends LinkInterface and EvolvableLinkInterface from PSR-13 Link definition interfaces
 
 This WebLink component extends [PSR-13 Link definition interfaces](https://www.php-fig.org/psr/psr-13/) and added to it additional methods:
